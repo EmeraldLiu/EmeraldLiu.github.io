@@ -29,7 +29,7 @@ h1{
 	color: #fff;
 	padding: 18% 0 0 0;
 	line-height: 76px;
-	background-image: url("../_media/background.jpg");
+	background-image: url("media/background.jpg");
 	text-align: center;
 	text-transform: uppercase;
 	margin: 0;
@@ -267,7 +267,7 @@ p#contact{
 }
 
 div#social-media-icons a#fb {
-    background-image: url(../_media/fb.png);
+    background-image: url(media/fb.png);
     background-repeat: no-repeat;
     background-position: top;
 }
