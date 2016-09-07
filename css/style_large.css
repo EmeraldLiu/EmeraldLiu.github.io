@@ -1,0 +1,24 @@
+/* Colors
+	dark gray #303030
+	dark blue #254B77
+	blue #1d99e7
+	white #fff
+	red #EA3939
+*/
+.header .menu{
+	margin-right: 20px;
+}
+
+.header li a{
+	margin:10px;
+	padding: 10px;
+}
+
+.header li a:hover{
+	background-color: white;
+ 	border-bottom: #1d99e7 2px solid;
+}
+
+.content{
+	padding-top: 150px;
+}
