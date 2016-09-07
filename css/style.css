@@ -29,7 +29,7 @@ h1{
 	color: #fff;
 	padding: 18% 0 0 0;
 	line-height: 76px;
-	background-image: url("background.jpg");
+	background-image: url("../media/background.jpg");
 	text-align: center;
 	text-transform: uppercase;
 	margin: 0;
@@ -267,37 +267,37 @@ p#contact{
 }
 
 div#social-media-icons a#fb {
-    background-image: url(media/fb.png);
+    background-image: url(../media/fb.png);
     background-repeat: no-repeat;
     background-position: top;
 }
 
 div#social-media-icons a#fb:hover {
-    background-image: url(../_media/fb_hover.png);
+    background-image: url(../media/fb_hover.png);
     background-repeat: no-repeat;
     background-position: top;
 }
 
 div#social-media-icons a#phone {
-    background-image: url(../_media/phone.png);
+    background-image: url(../media/phone.png);
     background-repeat: no-repeat;
     background-position:top;
 }
 
 div#social-media-icons a#phone:hover {
-    background-image: url(../_media/phone_hover.png);
+    background-image: url(../media/phone_hover.png);
     background-repeat: no-repeat;
     background-position: top;
 }
 
 div#social-media-icons a#mail {
-    background-image: url(../_media/mail.png);
+    background-image: url(../media/mail.png);
     background-repeat: no-repeat;
     background-position:top;
 }
 
 div#social-media-icons a#mail:hover {
-    background-image: url(../_media/mail_hover.png);
+    background-image: url(../media/mail_hover.png);
     background-repeat: no-repeat;
     background-position: top;
 }
