@@ -248,12 +248,12 @@ main#studioc-page div p{
 div#social-media-icons{
     display: table;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 div#social-media-icons .sm{
 	display: table-cell;
-    padding: 65px 20px 0px 20px;
+    padding: 65px 20px 10px 20px;
 }
 
 div#social-media-icons a:hover{
