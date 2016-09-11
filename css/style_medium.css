@@ -30,7 +30,11 @@ body{
 h1{
 	font-size: 60pt;
 	line-height: 46px;
+<<<<<<< HEAD
 	background: #8bc4dd url('../media/turtle.png') no-repeat top left;
+=======
+	background-image:  url("../media/background_medium.jpg");
+>>>>>>> origin/master
 }
 
 h2{
@@ -51,6 +55,11 @@ main{
 	text-align:center;
 }
 
+<<<<<<< HEAD
 p#contact{
 	font-size: 11pt;
+=======
+.header .menu{
+	margin: 70px 0 15px 0;
+>>>>>>> origin/master
 }
