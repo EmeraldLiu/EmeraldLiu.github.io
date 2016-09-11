@@ -1,9 +1,8 @@
 /* Colors
-	dark gray #303030
-	dark blue #254B77
-	blue #1d99e7
+	dark gray #6d6d6d
+	darker blue #126cc6
+	blue #8bc4dd
 	white #fff
-	red #EA3939
 */
 img#logo{
 	padding: 1.8em .2em .2em 2.2em;
@@ -30,11 +29,7 @@ body{
 h1{
 	font-size: 60pt;
 	line-height: 46px;
-<<<<<<< HEAD
 	background: #8bc4dd url('../media/turtle.png') no-repeat top left;
-=======
-	background-image:  url("../media/background_medium.jpg");
->>>>>>> origin/master
 }
 
 h2{
@@ -55,11 +50,6 @@ main{
 	text-align:center;
 }
 
-<<<<<<< HEAD
 p#contact{
 	font-size: 11pt;
-=======
-.header .menu{
-	margin: 70px 0 15px 0;
->>>>>>> origin/master
 }
