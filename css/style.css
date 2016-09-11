@@ -64,7 +64,7 @@ main{
 
 a{
 	text-decoration: none;
-	color: #126cc6;
+	color:#8bc4dd;
 	background-color:#fff;
 }
 
@@ -116,7 +116,7 @@ img#logo{
 }
 
 .header li a:hover{
-  background-color: #f4f4f4;
+  background-color: #fff;
   border:none;
 }
 
