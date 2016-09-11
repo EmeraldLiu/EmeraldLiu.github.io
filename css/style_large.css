@@ -16,9 +16,5 @@
 
 .header li a:hover{
 	background-color: white;
- 	border-bottom: #1d99e7 2px solid;
-}
-
-.content{
-	padding-top: 150px;
+	color: #8bc4dd;
 }

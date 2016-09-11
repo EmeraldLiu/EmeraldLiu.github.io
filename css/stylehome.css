@@ -2,7 +2,7 @@
 
 /* Colors
 	dark gray #6d6d6d
-	darker blue #126cc6
+	darker blue #2691b3
 	blue #8bc4dd
 	white #fff
 	red #EA3939
@@ -23,7 +23,13 @@
   font-weight: normal;
 }
 /* General */
+#banner{
+  background: white url('../media/banner.png') no-repeat top left;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
 
+}
 body{
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
@@ -32,24 +38,10 @@ body{
 	background-color: white;
 }
 
-h1{
-	font-family: Poppins, sans-serif;
-	font-size: 100pt;
-	font-weight: 700;
-	color: #fff;
-	padding: 18% 0 0 0;
-	line-height: 76px;
-	background: #8bc4dd url('../media/whale.png') no-repeat top right;
-	text-align: center;
-	text-transform: uppercase;
-	margin: 0;
-
-}
-
 h2{
   font-family: 'CardenioModern';
   font-weight: bold;
-	font-size: 29pt;
+	font-size: 33pt;
 	font-weight: 600;
 	color: #8bc4dd;
 	text-align: center;
@@ -65,24 +57,12 @@ main{
 
 a{
 	text-decoration: none;
-	color: #126cc6;
+	color:#8bc4dd;
 }
 
 p{
 	text-align: left;
 	margin: 5px 0 10px 0;
-}
-
-h3{
-	text-transform: none;
-	color: #8bc4dd;
-	font-size: 18pt;
-	margin-bottom: 3px;
-}
-
-h4{
-	font-size: 14pt;
-	margin: 5px 0;
 }
 
 footer{
@@ -92,11 +72,34 @@ footer{
   color: white;
 }
 
-img#logo{
-  padding: 1em .5em .7em 2.7em;
+/* Home Page */
+#emerald{
+    font-family: 'CardenioModern';
+    font-weight:bold;
+    font-size: 92pt;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 0；
+}
+#description{
+    font-family: 'CardenioModern';
+    font-weight: normal;
+    font-size: 27pt;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+}
+/* Navigation */
+.header{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+  display: none;
 }
 
-/* Navigation */
 .header ul {
   margin: 0;
   padding: 0;
@@ -208,75 +211,23 @@ img#logo{
   }
 }
 
-/* Studio C*/
+/* Home */
+.banner{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 40px 0 20px 0;
 
-main#studioc-page div p{
-	text-align: center;
 }
 
-/*Contact */
-
-p#contact{
-  text-align: center;
-}
-
-form {
-    margin: 0 auto;
-    width: 400px;
-    padding-top: 1em;
-}
-
-form div + div {
-    margin-top: 1em;
-}
-
-label {
-    display: inline-block;
-    width: 80px;
-    text-align: right;
-}
-
-input, textarea {
-    font: 1.3em sans-serif;
-    width: 280px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 1px solid #999;
-    padding: 3px;
-}
-
-input:focus, textarea:focus {
-    border-color: #6d6d6d;
-}
-
-textarea {
-    vertical-align: top;
-    height: 6em;
-    resize: vertical;
-}
-
-.button {
-    padding-left: 90px; 
-}
-
-#send{
-    padding: 10px 28px;
-    font-size: 1em;
-    background-color: white;
-    color: #8bc4dd;
-    border: 1px solid #999;
-}
-
-#send:hover{
-  color: #6d6d6d;
+img#logo{
+	padding: 1em .5em .7em 2.7em;
 }
 
 /* Footer */
-
 #medias{
   margin-top: 10px;
 }
-
 .sm{
   padding-left: 4px;
 }
@@ -285,49 +236,41 @@ textarea {
   opacity: 0.7;
 }
 
-/* Gallery */
-
-.thumbnails{
-	margin: 0 auto;
+/* About */
+.about-imgs{
+	display: block;
+	margin-top: 3em;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 100%;
 }
 
-.thumbnails img{
-	border-radius: 3px;
-	margin: 2px;
+div#achievements ul{
+	padding-left: 0;
 }
 
-.gallery-titles{
-	clear: left;
+div#achievements ul li{ 
+	list-style-type: none;
 }
 
-.lb-details h3{
-  font-weight: 400;
-  text-transform: uppercase;
-  line-height: 18pt;
-  color: white;
-  margin-top: 3px;
+a#resume:hover{
+	color: #2691b3;
 }
 
-.lb-details p{
-  font-family: "Open Sans" sans-serif;
-  font-weight: 300;
-  line-height: 12pt;
-  color: #eee;
+/* Resume */
+main#resume-page ul li{
+	list-style-type: none;
 }
 
-.lb-details p a{
-	color: #8bc4dd;
+main#resume-page p{
+	text-align: center;
 }
 
-.lb-details p a:hover{
-	color: #EA3939;
+div#resume-profile ul li{
+	color: #254B77;
 }
 
-#contact-imgs{
-  display: block;
-  margin-top: 3em;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 100%;
-  clear: left;
+main#resume-page ul{
+	padding-left: 0;
+	margin: 3px;
 }
