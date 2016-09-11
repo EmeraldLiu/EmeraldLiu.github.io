@@ -5,7 +5,6 @@
 	darker blue #126cc6
 	blue #8bc4dd
 	white #fff
-	red #EA3939
 */
 
 /* fonts */
@@ -39,11 +38,7 @@ h1{
 	color: #fff;
 	padding: 18% 0 0 0;
 	line-height: 76px;
-<<<<<<< HEAD
 	background: #8bc4dd url('../media/whale.png') no-repeat top right;
-=======
-	background-image: url("../media/background.jpg");
->>>>>>> origin/master
 	text-align: center;
 	text-transform: uppercase;
 	margin: 0;
@@ -234,7 +229,6 @@ form div + div {
     margin-top: 1em;
 }
 
-<<<<<<< HEAD
 label {
     display: inline-block;
     width: 80px;
@@ -252,23 +246,6 @@ input, textarea {
 
 input:focus, textarea:focus {
     border-color: #6d6d6d;
-=======
-/* StudioC */
-main#studioc-page div p{
-	text-align: center;
-}
-
-/* Contact & hover change icons*/
-div#social-media-icons{
-    display: table;
-    width: 100%;
-    margin-top: 60px;
-}
-
-div#social-media-icons .sm{
-	display: table-cell;
-    padding: 65px 20px 10px 20px;
->>>>>>> origin/master
 }
 
 textarea {
@@ -277,7 +254,6 @@ textarea {
     resize: vertical;
 }
 
-<<<<<<< HEAD
 .button {
     padding-left: 90px; 
 }
@@ -306,42 +282,6 @@ textarea {
 
 .sm:hover{
   opacity: 0.7;
-=======
-div#social-media-icons a#fb {
-    background-image: url(../media/fb.png);
-    background-repeat: no-repeat;
-    background-position: top;
-}
-
-div#social-media-icons a#fb:hover {
-    background-image: url(../media/fb_hover.png);
-    background-repeat: no-repeat;
-    background-position: top;
-}
-
-div#social-media-icons a#phone {
-    background-image: url(../media/phone.png);
-    background-repeat: no-repeat;
-    background-position:top;
-}
-
-div#social-media-icons a#phone:hover {
-    background-image: url(../media/phone_hover.png);
-    background-repeat: no-repeat;
-    background-position: top;
-}
-
-div#social-media-icons a#mail {
-    background-image: url(../media/mail.png);
-    background-repeat: no-repeat;
-    background-position:top;
-}
-
-div#social-media-icons a#mail:hover {
-    background-image: url(../media/mail_hover.png);
-    background-repeat: no-repeat;
-    background-position: top;
->>>>>>> origin/master
 }
 
 /* Gallery */
