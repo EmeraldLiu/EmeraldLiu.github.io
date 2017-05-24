@@ -70,6 +70,10 @@ a{
 	color:#8bc4dd;
 }
 
+a:hover{
+  color: #126cc6;
+}
+
 p{
 	text-align: left;
 	margin: 5px 0 10px 0;
@@ -264,11 +268,38 @@ li{
 }
 
 /* Studio C*/
-
-main#studioc-page div p{
-	text-align: center;
+.c-info{
+  margin: 50px 0; 
 }
 
+strong{
+  font-weight: bold;
+}
+
+.c-projects{
+  width: 100%;
+  border: 2px solid #8bc4dd; 
+}
+
+/* Capstone */
+#cap-link{
+  font-size: 34pt;
+  margin: 50px 0 20px 0;
+}
+
+#important{
+  font-size: 22pt;
+  text-align:center;
+}
+
+.capstone{
+  width: 100%;
+  margin: 20px 0;
+}
+
+.features{
+  width: 49%;
+}
 /*Contact */
 
 p#contact{
@@ -553,5 +584,10 @@ footer p{
 
     .pop-up{
       visibility: visible;
+    }
+
+    .features{
+      width: 100%;
+      margin: 10px 0;
     }
 }
